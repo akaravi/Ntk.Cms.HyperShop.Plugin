@@ -1,0 +1,15 @@
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\bin\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.exe
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\bin\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.deps.json
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\bin\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.runtimeconfig.json
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\bin\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.runtimeconfig.dev.json
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\bin\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.dll
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\bin\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.pdb
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\obj\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.csprojAssemblyReference.cache
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\obj\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.csproj.GenerateResource.cache
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\obj\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.AssemblyInfoInputs.cache
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\obj\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.AssemblyInfo.cs
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\obj\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.csproj.CoreCompileInputs.cache
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\obj\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.dll
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\obj\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.pdb
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\obj\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.genruntimeconfig.cache
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.Plugin.Test\obj\Debug\netcoreapp3.1\Ntk.Cms.HyperShop.Plugin.Test.FormMain.resources

@@ -1,0 +1,9 @@
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.PluginInterface\obj\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.csprojAssemblyReference.cache
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.PluginInterface\obj\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.AssemblyInfoInputs.cache
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.PluginInterface\obj\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.AssemblyInfo.cs
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.PluginInterface\obj\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.csproj.CoreCompileInputs.cache
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.PluginInterface\bin\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.deps.json
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.PluginInterface\bin\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.dll
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.PluginInterface\bin\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.pdb
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.PluginInterface\obj\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.dll
+D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\Ntk.Cms.HyperShop.PluginInterface\obj\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.pdb
