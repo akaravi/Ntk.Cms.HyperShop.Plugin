@@ -8,6 +8,7 @@
 		<PackageReference Include="Ntk.Cms.Share.ClientApi" Version="1.1.37" />
 		<PackageReference Include="Ntk.Cms.Share.Interface" Version="1.1.37" />
 		<PackageReference Include="Ntk.Cms.Share.Plugin" Version="1.1.35" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
 	</ItemGroup>
 
 </Project>

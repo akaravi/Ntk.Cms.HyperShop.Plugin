@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Developer.WebApi", "Develop
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9DBB21F1-24A8-4A20-95AC-9C2C436737AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ntk.Cms.HyperShop.Plugin.Test", "Ntk.Cms.HyperShop.Plugin.Test\Ntk.Cms.HyperShop.Plugin.Test.csproj", "{6652CB15-4631-411A-AA95-29856B557066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ntk.Cms.HyperShop.Plugin.Test", "Ntk.Cms.HyperShop.Plugin.Test\Ntk.Cms.HyperShop.Plugin.Test.csproj", "{6652CB15-4631-411A-AA95-29856B557066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginHoloo", "PluginHoloo\PluginHoloo.csproj", "{81A6B5F7-F477-408C-9146-A0CE85A08CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginHoloo", "PluginHoloo\PluginHoloo.csproj", "{81A6B5F7-F477-408C-9146-A0CE85A08CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginParsian", "PluginParsian\PluginParsian.csproj", "{95E3F34B-4B2C-46F6-A1D9-C4516357D2ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginParsian", "PluginParsian\PluginParsian.csproj", "{95E3F34B-4B2C-46F6-A1D9-C4516357D2ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginMahakSoft", "PluginMahakSoft\PluginMahakSoft.csproj", "{A52E23C6-2A53-4D3F-B0E1-B9DC52C8BC70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginMahakSoft", "PluginMahakSoft\PluginMahakSoft.csproj", "{A52E23C6-2A53-4D3F-B0E1-B9DC52C8BC70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginGheyas", "PluginGheyas\PluginGheyas.csproj", "{96752900-F3D6-4DB7-9EFA-FC6D2C0C488E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginGheyas", "PluginGheyas\PluginGheyas.csproj", "{96752900-F3D6-4DB7-9EFA-FC6D2C0C488E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTest", "PluginTest\PluginTest.csproj", "{3C5BDB40-0BBE-4FA2-B119-8453F2E8E3A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{96752900-F3D6-4DB7-9EFA-FC6D2C0C488E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96752900-F3D6-4DB7-9EFA-FC6D2C0C488E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96752900-F3D6-4DB7-9EFA-FC6D2C0C488E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5BDB40-0BBE-4FA2-B119-8453F2E8E3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5BDB40-0BBE-4FA2-B119-8453F2E8E3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5BDB40-0BBE-4FA2-B119-8453F2E8E3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5BDB40-0BBE-4FA2-B119-8453F2E8E3A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{95E3F34B-4B2C-46F6-A1D9-C4516357D2ED} = {98946AA7-FAEF-4A86-B4C5-BD2377E0E392}
 		{A52E23C6-2A53-4D3F-B0E1-B9DC52C8BC70} = {98946AA7-FAEF-4A86-B4C5-BD2377E0E392}
 		{96752900-F3D6-4DB7-9EFA-FC6D2C0C488E} = {98946AA7-FAEF-4A86-B4C5-BD2377E0E392}
+		{3C5BDB40-0BBE-4FA2-B119-8453F2E8E3A8} = {98946AA7-FAEF-4A86-B4C5-BD2377E0E392}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A153BDBB-EA81-466A-B1DE-C768DCA331D6}

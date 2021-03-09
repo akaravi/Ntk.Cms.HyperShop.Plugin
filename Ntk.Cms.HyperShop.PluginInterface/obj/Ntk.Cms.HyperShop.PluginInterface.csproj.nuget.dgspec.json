@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SourceKaravi\\GitHub\\Ntk.Cms.HyperShop.Plugin\\Ntk.Cms.HyperShop.PluginInterface\\Ntk.Cms.HyperShop.PluginInterface.csproj": {}
+    "D:\\Projects\\VisualStudio\\NtkPluginTest\\Ntk.Cms.HyperShop.PluginInterface\\Ntk.Cms.HyperShop.PluginInterface.csproj": {}
   },
   "projects": {
-    "D:\\SourceKaravi\\GitHub\\Ntk.Cms.HyperShop.Plugin\\Ntk.Cms.HyperShop.PluginInterface\\Ntk.Cms.HyperShop.PluginInterface.csproj": {
+    "D:\\Projects\\VisualStudio\\NtkPluginTest\\Ntk.Cms.HyperShop.PluginInterface\\Ntk.Cms.HyperShop.PluginInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SourceKaravi\\GitHub\\Ntk.Cms.HyperShop.Plugin\\Ntk.Cms.HyperShop.PluginInterface\\Ntk.Cms.HyperShop.PluginInterface.csproj",
+        "projectUniqueName": "D:\\Projects\\VisualStudio\\NtkPluginTest\\Ntk.Cms.HyperShop.PluginInterface\\Ntk.Cms.HyperShop.PluginInterface.csproj",
         "projectName": "Ntk.Cms.HyperShop.PluginInterface",
-        "projectPath": "D:\\SourceKaravi\\GitHub\\Ntk.Cms.HyperShop.Plugin\\Ntk.Cms.HyperShop.PluginInterface\\Ntk.Cms.HyperShop.PluginInterface.csproj",
-        "packagesPath": "C:\\Users\\karavi.NTK\\.nuget\\packages\\",
-        "outputPath": "D:\\SourceKaravi\\GitHub\\Ntk.Cms.HyperShop.Plugin\\Ntk.Cms.HyperShop.PluginInterface\\obj\\",
+        "projectPath": "D:\\Projects\\VisualStudio\\NtkPluginTest\\Ntk.Cms.HyperShop.PluginInterface\\Ntk.Cms.HyperShop.PluginInterface.csproj",
+        "packagesPath": "C:\\Users\\Irana\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\VisualStudio\\NtkPluginTest\\Ntk.Cms.HyperShop.PluginInterface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\karavi.NTK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Irana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,6 +60,10 @@
             "Ntk.Cms.Share.Plugin": {
               "target": "Package",
               "version": "[1.1.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             }
           },
           "imports": [
@@ -72,7 +76,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SourceKaravi\\GitHub\\Ntk.Cms.HyperShop.Plugin\\Ntk.Cms.HyperShop.Plugin.Test\\Ntk.Cms.HyperShop.Plugin.Test.csproj": {}
+    "D:\\Projects\\VisualStudio\\NtkPluginTest\\Ntk.Cms.HyperShop.Plugin.Test\\Ntk.Cms.HyperShop.Plugin.Test.csproj": {}
   },
   "projects": {
-    "D:\\SourceKaravi\\GitHub\\Ntk.Cms.HyperShop.Plugin\\Ntk.Cms.HyperShop.Plugin.Test\\Ntk.Cms.HyperShop.Plugin.Test.csproj": {
+    "D:\\Projects\\VisualStudio\\NtkPluginTest\\Ntk.Cms.HyperShop.Plugin.Test\\Ntk.Cms.HyperShop.Plugin.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SourceKaravi\\GitHub\\Ntk.Cms.HyperShop.Plugin\\Ntk.Cms.HyperShop.Plugin.Test\\Ntk.Cms.HyperShop.Plugin.Test.csproj",
+        "projectUniqueName": "D:\\Projects\\VisualStudio\\NtkPluginTest\\Ntk.Cms.HyperShop.Plugin.Test\\Ntk.Cms.HyperShop.Plugin.Test.csproj",
         "projectName": "Ntk.Cms.HyperShop.Plugin.Test",
-        "projectPath": "D:\\SourceKaravi\\GitHub\\Ntk.Cms.HyperShop.Plugin\\Ntk.Cms.HyperShop.Plugin.Test\\Ntk.Cms.HyperShop.Plugin.Test.csproj",
-        "packagesPath": "C:\\Users\\karavi.NTK\\.nuget\\packages\\",
-        "outputPath": "D:\\SourceKaravi\\GitHub\\Ntk.Cms.HyperShop.Plugin\\Ntk.Cms.HyperShop.Plugin.Test\\obj\\",
+        "projectPath": "D:\\Projects\\VisualStudio\\NtkPluginTest\\Ntk.Cms.HyperShop.Plugin.Test\\Ntk.Cms.HyperShop.Plugin.Test.csproj",
+        "packagesPath": "C:\\Users\\Irana\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\VisualStudio\\NtkPluginTest\\Ntk.Cms.HyperShop.Plugin.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\karavi.NTK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Irana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ntk.Cms.Share.Interface" Version="1.1.37" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ntk.Cms.HyperShop.PluginInterface\Ntk.Cms.HyperShop.PluginInterface.csproj" />
+  </ItemGroup>
+
+</Project>
