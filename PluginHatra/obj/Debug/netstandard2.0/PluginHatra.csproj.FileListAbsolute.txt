@@ -22,3 +22,15 @@ D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\PluginHatra\obj\Debug\netstandar
 D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\PluginHatra\obj\Debug\netstandard2.0\PluginHatra.AssemblyInfo.cs
 D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\PluginHatra\obj\Debug\netstandard2.0\PluginHatra.csproj.CoreCompileInputs.cache
 D:\SourceKaravi\GitHub\Ntk.Cms.HyperShop.Plugin\PluginHatra\obj\Debug\netstandard2.0\PluginHatra.csproj.CopyComplete
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\bin\Debug\netstandard2.0\PluginHatra.deps.json
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\bin\Debug\netstandard2.0\PluginHatra.dll
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\bin\Debug\netstandard2.0\PluginHatra.pdb
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\bin\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.dll
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\bin\Debug\netstandard2.0\Ntk.Cms.HyperShop.PluginInterface.pdb
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\obj\Debug\netstandard2.0\PluginHatra.csprojAssemblyReference.cache
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\obj\Debug\netstandard2.0\PluginHatra.AssemblyInfoInputs.cache
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\obj\Debug\netstandard2.0\PluginHatra.AssemblyInfo.cs
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\obj\Debug\netstandard2.0\PluginHatra.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\obj\Debug\netstandard2.0\PluginHatra.csproj.CopyComplete
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\obj\Debug\netstandard2.0\PluginHatra.dll
+D:\Projects\VisualStudio\NtkPluginTest\PluginHatra\obj\Debug\netstandard2.0\PluginHatra.pdb

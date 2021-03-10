@@ -10,7 +10,7 @@ namespace PluginTest
     {
         public HyperShop()
         {
-            ConnectionString = "Connection String To Db Here";
+            ConnectionString = "Connectionstring To Db Here";
             Product.ConfigureColumns((x) =>
             {
                 x.SelectFrom("[TblProduct]"); // ViewProduct - Product Inner Join ProductGroup ......
@@ -21,6 +21,16 @@ namespace PluginTest
                 x.Category("Category");
                 x.CategoryCode("CategoryCode");
                 x.Description("Tozihat");
+            });
+            ProductCategory.ConfigureColumns((x) =>
+            {
+                x.SelectFrom("[TblProductGroup]"); // ViewProductGroup - ProductGroup INNER JOIN ParentGroup .....
+                x.Code("Code");
+                x.Image("");
+                x.Memo("Description");
+                x.Name("Name");
+                x.ParentCode("");
+                x.RowId("RowId");
             });
         }
         public string PluginName => "Test";
@@ -35,9 +45,6 @@ namespace PluginTest
 
         public string Config { get; set; }
 
-        public string ExecuteTest(string model)
-        {
-            return "Test";
-        }
+
     }
 }

@@ -15,6 +15,8 @@ namespace Ntk.Cms.HyperShop.PluginInterface.Helper
     {
         public string ConnectionString { get; set; }
         public Product Product { get; set; } = new Product();
+        public ProductCategory ProductCategory { get; set; } = new ProductCategory();
+
         public ErrorExceptionResult<UniversalActionModel> UniversalAction(UniversalActionModel model)
         {
             return new ErrorExceptionResult<UniversalActionModel>();
@@ -32,12 +34,12 @@ namespace Ntk.Cms.HyperShop.PluginInterface.Helper
 
         public ErrorExceptionResult<HyperShopCategoryModel> GetDataProductCategoryGetone(ProductCategoryDtoModel model)
         {
-            return new ErrorExceptionResult<HyperShopCategoryModel>();
+            return ProductCategory.GetOne(ConnectionString,model);
         }
 
         public ErrorExceptionResult<HyperShopCategoryModel> GetDataProductCategoryGetAll(FilterModel model)
         {
-            return new ErrorExceptionResult<HyperShopCategoryModel>();
+            return ProductCategory.GetList(ConnectionString, model);
         }
 
 
@@ -59,6 +61,11 @@ namespace Ntk.Cms.HyperShop.PluginInterface.Helper
         public ErrorExceptionResult<CheckStatusActionModel> CheckStatusAction()
         {
             return new ErrorExceptionResult<CheckStatusActionModel>();
+        }
+
+        public string ExecuteTest(string model)
+        {
+            return "Test";
         }
     }
 }
