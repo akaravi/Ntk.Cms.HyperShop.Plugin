@@ -46,7 +46,7 @@ namespace Ntk.Cms.HyperShop.PluginInterface.Configs
         {
             ErrorExceptionResult<HyperShopCategoryModel> ret = new ErrorExceptionResult<HyperShopCategoryModel>();
             var str = ColumnConfiguration.GetSelectBody(ColumnConfiguration);
-            str = str + " where " + ColumnConfiguration.CodeColumn + " = 1";// + model.code;
+            str = str+ model.CreateFilter<HyperShopCategoryModel>(ColumnConfiguration, ColumnConfiguration.NameColumn);
             try
             {
                 var dt = str.ExecuteSelect(connectionString);

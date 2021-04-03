@@ -51,11 +51,11 @@
             },
             "Ntk.Cms.Share.ClientApi": {
               "target": "Package",
-              "version": "[1.1.37, )"
+              "version": "[1.1.40, )"
             },
             "Ntk.Cms.Share.Interface": {
               "target": "Package",
-              "version": "[1.1.37, )"
+              "version": "[1.1.40, )"
             },
             "Ntk.Cms.Share.Plugin": {
               "target": "Package",

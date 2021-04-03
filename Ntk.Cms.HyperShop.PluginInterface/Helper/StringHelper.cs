@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Ntk.Cms.Share.Interface.FilterEngine;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,7 +10,7 @@ namespace Ntk.Cms.HyperShop.PluginInterface.Helper
 {
     public static class StringHelper
     {
-        public static string mKey = "tXq~Fgl!*(_7041B";
+        public static string mKey = "tX@~Fgl!*(_7041B";
         private const int keysize = 128;
         private static readonly byte[] initVectorBytes = Encoding.ASCII.GetBytes("tj84ge£a340d@9ur");
 
@@ -109,6 +110,160 @@ namespace Ntk.Cms.HyperShop.PluginInterface.Helper
         {
             return JsonConvert.SerializeObject(obj, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
         }
+
+
+        public static string CreateFilter<T>(this FilterModel model, object columns,string defaultSortCol)
+        {
+            string ret = "";
+            if (model.Filters != null && model.Filters.Count > 0)
+            {
+                var ctMain = "";
+                foreach (var item in model.Filters)
+                {
+                    var condition = "((?parent?) OR (?child?))";
+                    if (!string.IsNullOrEmpty(item.PropertyName))
+                    {
+                        var co = getCondition<T>(item, columns);
+                        if (!string.IsNullOrEmpty(co))
+                            condition = condition.Replace("?parent?", co);
+                        else
+                            condition = condition.Replace("(?parent?) OR", "");
+                    }
+                    else
+                        condition = condition.Replace("(?parent?) OR", "");
+
+                    if (item.Filters != null && item.Filters.Count > 0)
+                    {
+                        var inner = "(?child?)";
+                        var xt = "";
+                        foreach (var x in item.Filters)
+                        {
+                            var co = getCondition<T>(x, columns);
+                            if (co != null)
+                            {
+                                if (!string.IsNullOrEmpty(xt))
+                                {
+                                    switch (x.ClauseType)
+                                    {
+                                        case ClauseType.Or:
+                                            xt += " OR ";
+                                            break;
+                                        case ClauseType.And:
+                                            xt += " AND ";
+                                            break;
+                                        default:
+                                            break;
+                                    }
+                                }
+                                xt = xt + inner.Replace("(?child?)", co);
+                            }
+                        }
+                        condition = condition.Replace("?child?", xt);
+                    }
+                    else
+                        condition = condition.Replace("(?child?)", "");
+                    condition = condition.Replace("(?parent?) OR", "").Replace("OR (?child?)", "").Replace("(?parent?)", "").Replace("?child?", "");
+
+                    if (condition.Replace("(", "").Replace(")", "").Replace("OR", "").Trim() != "")
+                    {
+                        if (!string.IsNullOrEmpty(ctMain))
+                        {
+                            switch (item.ClauseType)
+                            {
+                                case ClauseType.Or:
+                                    ctMain += " OR ";
+                                    break;
+                                case ClauseType.And:
+                                    ctMain += " AND ";
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                        ctMain += condition;
+                    }
+                }
+                if (!string.IsNullOrEmpty(ctMain))
+                {
+                    ret += Environment.NewLine+"WHERE "+ctMain;
+                }
+            }
+            ret += Environment.NewLine + "ORDER BY ";
+            if (string.IsNullOrEmpty(model.SortColumn))
+            {
+                if (model.SortType == SortType.Random)
+                    ret += " newid()";
+                else
+                    ret += defaultSortCol;
+            }
+            else
+            {
+                if (model.SortType == SortType.Random)
+                    ret += " newid()";
+                else
+                {
+                    var prop = model.SortColumn.GetColumnName<T>(columns);
+                    if (string.IsNullOrEmpty(prop))
+                        ret += defaultSortCol;
+                    else
+                        ret += prop;
+                    switch (model.SortType)
+                    {
+                        case SortType.Descending:
+                            ret += " DESC";
+                            break;
+                        case SortType.Ascending:
+                            ret += " ASC";
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+            if (model.RowPerPage > 0)
+            {
+                ret += Environment.NewLine + "OFFSET " + ((model.RowPerPage * model.CurrentPageNumber)).ToString() + " ROWS FETCH NEXT " + (model.RowPerPage + 1).ToString() + " ROWS ONLY";
+            }
+            return ret;
+        }
+
+        private static string getCondition<T>(FilterDataModel item, object columns)
+        {
+            if (string.IsNullOrEmpty(item.PropertyName))
+                return "";
+            var col = item.PropertyName.GetColumnName<T>(columns);
+            if (string.IsNullOrEmpty(col))
+                return "";
+            var val = item.PropertyName.GetColumnValue<T>(item.value);
+            if (string.IsNullOrEmpty(val) || val == "''")
+                return "";
+            switch (item.SearchType)
+            {
+                case FilterDataModelSearchTypes.Equal:
+                    return col + "=" + val;
+                case FilterDataModelSearchTypes.NotEqual:
+                    return col + "<>" + val;
+                case FilterDataModelSearchTypes.LessThan:
+                    return col + "<" + val;
+                case FilterDataModelSearchTypes.GreaterThan:
+                    return col + ">" + val;
+                case FilterDataModelSearchTypes.Contains:
+                    return col + " LIKE ('%'+" + val + "'%')";
+                case FilterDataModelSearchTypes.NotContains:
+                    return col + " LIKE ('%'+" + val + "'%')";
+                case FilterDataModelSearchTypes.BeginsWith:
+                    return col + " LIKE (" + val + "'%')";
+                case FilterDataModelSearchTypes.EndsWith:
+                    return col + " LIKE ('%'+" + val + ")";
+                case FilterDataModelSearchTypes.LessThanOrEqualTo:
+                    return col + "<=" + val;
+                case FilterDataModelSearchTypes.GreaterThanOrEqualTo:
+                    return col + ">=" + val;
+                default:
+                    return "";
+            }
+        }
+
 
     }
 }

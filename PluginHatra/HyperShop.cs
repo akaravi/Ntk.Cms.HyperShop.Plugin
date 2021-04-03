@@ -1,5 +1,6 @@
 ﻿using System;
 using Ntk.Cms.HyperShop.PluginInterface;
+using Ntk.Cms.HyperShop.PluginInterface.Helper;
 using Ntk.Cms.Share.Interface.CmsDtoModels.HyperShop;
 using Ntk.Cms.Share.Interface.CmsModels.HyperShop;
 using Ntk.Cms.Share.Interface.CmsModels.ModelBase;
@@ -8,7 +9,7 @@ using Ntk.Cms.Share.Interface.FilterEngine;
 
 namespace PluginHatra
 {
-    public class HyperShop : IPluginHyperShop
+    public class HyperShop : BasePlugin, IPluginHyperShop
     {
         public string PluginName
         {

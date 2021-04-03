@@ -6,4 +6,9 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Ntk.Cms.Share.Interface" Version="1.1.40" />
+    <PackageReference Include="Ntk.Cms.Share.Plugin" Version="1.1.35" />
+  </ItemGroup>
+
 </Project>

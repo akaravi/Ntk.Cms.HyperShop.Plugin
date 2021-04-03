@@ -20,7 +20,7 @@ namespace Ntk.Cms.HyperShop.PluginInterface.Configs
             action.Invoke(ColumnConfiguration);
         }
 
-        internal ErrorExceptionResult<HyperShopContentModel> GetOne(string connectionString,ProductContentDtoModel model)
+        internal ErrorExceptionResult<HyperShopContentModel> GetOne(string connectionString, ProductContentDtoModel model)
         {
             ErrorExceptionResult<HyperShopContentModel> ret = new ErrorExceptionResult<HyperShopContentModel>();
             var str = ColumnConfiguration.GetSelectBody(ColumnConfiguration);
@@ -28,7 +28,7 @@ namespace Ntk.Cms.HyperShop.PluginInterface.Configs
             try
             {
                 var dt = str.ExecuteSelect(connectionString);
-                if (dt.Rows.Count==0)
+                if (dt.Rows.Count == 0)
                 {
                     ret.IsSuccess = false;
                     ret.ErrorMessage = "کالا یافت نشد";
@@ -41,14 +41,14 @@ namespace Ntk.Cms.HyperShop.PluginInterface.Configs
                 ret.ErrorMessage = ex.Message;
             }
             return ret;
-                
+
         }
 
         internal ErrorExceptionResult<HyperShopContentModel> GetList(string connectionString, FilterModel model)
         {
             ErrorExceptionResult<HyperShopContentModel> ret = new ErrorExceptionResult<HyperShopContentModel>();
             var str = ColumnConfiguration.GetSelectBody(ColumnConfiguration);
-            str = str + " where " + ColumnConfiguration.CodeColumn + " = 1";// + model.code;
+            str = str + model.CreateFilter<HyperShopContentModel>(ColumnConfiguration,ColumnConfiguration.NameColumn);// + model.code;
             try
             {
                 var dt = str.ExecuteSelect(connectionString);
@@ -65,5 +65,6 @@ namespace Ntk.Cms.HyperShop.PluginInterface.Configs
             return ret;
 
         }
+
     }
 }
