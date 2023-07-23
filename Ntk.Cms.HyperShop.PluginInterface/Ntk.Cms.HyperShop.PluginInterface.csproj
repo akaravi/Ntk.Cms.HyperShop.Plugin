@@ -5,10 +5,10 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Ntk.Cms.Share.ClientApi" Version="1.1.40" />
-		<PackageReference Include="Ntk.Cms.Share.Interface" Version="1.1.40" />
-		<PackageReference Include="Ntk.Cms.Share.Plugin" Version="1.1.35" />
-		<PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+		<PackageReference Include="Ntk.Cms.Share.ClientApi" Version="1.1.47" />
+		<PackageReference Include="Ntk.Cms.Share.Interface" Version="1.1.48" />
+		<PackageReference Include="Ntk.Cms.Share.Plugin" Version="1.1.47" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
 	</ItemGroup>
 
 </Project>
