@@ -1,0 +1,8 @@
+{
+  "productId": "Ntk.Cms.HyperShop.Plugin",
+  "portRange": { "min": 51743, "max": 51743 },
+  "hosts": {
+    "backend": { "host": "localhost", "port": 51743, "note": "Developer.WebApi — sub-slot of Ntk.Cms.HyperShop range 51740-51749" }
+  },
+  "notes": { "portRange": "All application local-dev ports allocated in 51743 (canonical range for this project)" }
+}
